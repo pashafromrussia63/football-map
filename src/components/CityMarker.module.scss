@@ -1,0 +1,15 @@
+.cityLabel {
+    fill: #f2f2f2;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 6px;
+    font-weight: 400;
+    pointer-events: none;
+    text-anchor: start;
+}
+
+.cityMarker {
+    cursor: pointer;
+    fill: #00F;
+    stroke: #FFF;
+    stroke-width: 1;
+}
