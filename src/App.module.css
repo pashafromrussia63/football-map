@@ -1,0 +1,19 @@
+html {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.map {
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
