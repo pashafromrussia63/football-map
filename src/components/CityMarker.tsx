@@ -21,7 +21,7 @@ const CityMarker = ({ cityName, logoSVG, isObscured, isHovered }: CityMarkerProp
                 cx={4}
                 cy={4}
                 r={4}
-                opacity={isObscured ? 0.3 : 1}
+                opacity={isObscured ? 0.1 : 1}
             />
         )}
 

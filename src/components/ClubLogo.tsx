@@ -7,16 +7,18 @@ type ClubLogoProps = {
   
 const ClubLogo = ({ logoSVG, isObscured }: ClubLogoProps) => {
     return (
-        <>
+        <g
+            className={styles.clubLogoMarker}
+            opacity={isObscured ? 0.1 : 1}
+        >
             <circle cx={4} cy={4} r={5} fill='white' />
             <image
                 className={styles.clubLogo}
                 href={logoSVG}
                 x={0}
                 y={0}
-                opacity={isObscured ? 0.3 : 1}
             />
-        </>
+        </g>
     );
 };
 
