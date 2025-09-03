@@ -1,0 +1,36 @@
+.panel {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: -500px;
+    width: 500px;
+    height: 100%;
+    background: #f0f0f0;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.panel.open {
+    right: 0;
+}
+
+.header {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+.closeIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.match {
+    font-size: 14px;
+}
